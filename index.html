@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Glassmorphism - Portfolio Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Background Circles Start -->
+    <div class="page-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!-- Background Circles End -->
+
+    <!-- Background Circles Start -->
+    <div class="bg-circles">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
+        <div class="circle-4"></div>
+    </div>
+    <!-- Background Circles End -->
+
+    <!-- Overlay Start -->
+    <div class="overlay"></div>
+    <!-- Overlay End -->
+
+    <!-- Main Start -->
+    <div class="main">
+        <!-- Header Start -->
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+            <span></span>
+          </button>
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">home</a></li>
+                                <li><a href="#about" class="nav-item link-item">about</a></li>
+                                <li>
+                                    <a href="#portfolio" class="nav-item link-item">portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#contact" class="nav-item link-item">contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+
+        <!-- Home Section Start -->
+
+        <section class="home-section align-item-center" id="home">
+            <div class="container">
+                <div class="row align-item-center">
+                    <div class="home-text">
+                        <p>Hello, I'm</p>
+                        <h1>Michael David Vinc</h1>
+                        <h2>College Student</h2>
+                        <a href="#about" class="btn link-item">more about me</a>
+                        <a href="#portfolio" class="btn link-item">portfolio</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                            <img src="img/me2.jpg" alt="profile-img" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Home Section End -->
+
+        <!-- About Section Start -->
+        <section class="about-section sec-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>about me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="img/IMG-20220425-WA0065.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>
+                            Saya merupakan seorang mahasiswa yang aktif di kegiatan di kampus, telah banyak mengikuti organisasi. Saya sangat menyukai belajar bahasa pemograman dan sangat antusias sekali dalam mengerjakan suatu project.
+                        </p>
+                        <h3>skills</h3>
+                        <div class="skills">
+                            <div class="skill-item">html</div>
+                            <div class="skill-item">css</div>
+                            <div class="skill-item">php</div>
+                            <div class="skill-item">flutter</div>
+                            <div class="skill-item">react js</div>
+                            <div class="skill-item">laravel</div>
+                            <div class="skill-item">django</div>
+                            <div class="skill-item">javarscript</div>
+                        </div>
+                        <div class="about-tabs">
+                            <button type="button" class="tab-item active" data-target="#education">
+                education
+              </button>
+                            <button type="button" class="tab-item" data-target="#experience">
+                experience
+              </button>
+                        </div>
+
+                        <!-- Education Start -->
+                        <div class="tab-content active" id="education">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2018 - Today</span>
+                                    <h4>
+                                        bachelor of technology information -
+                                        <span>STMIK Amik Riau</span>
+                                    </h4>
+                                    <p>
+                                        Berkuliah di STMIK Amik Riau dengan Jurusan Teknologi Informasi dan telah mengikuti banyak organisasi.
+                                    </p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2015 - 2018</span>
+                                    <h4>
+                                        senior high school -
+                                        <span>SMKN 1 Kandis</span>
+                                    </h4>
+                                    <p>
+                                        SMK di SMKN 1 Kandis dengan jurusan Teknik Komputer & Jaringan, pernah mengikuti lomba Web Design Se-Provinsi Riau, Mendapatkan Juara 1 Web Design Se-Kabupaten Siak.
+                                    </p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2012 - 2015</span>
+                                    <h4>
+                                        junior high school -
+                                        <span>SMPS Ariska</span>
+                                    </h4>
+                                    <p>
+                                        SMP di SMPS Ariska yang berlokasi di Kandis, Kab.Siak, dengan nilai UN yang memuaskan.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Education End -->
+
+                        <!-- Experience Start -->
+                        <div class="tab-content" id="experience">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2018</span>
+                                    <h4>Competion - <span>Web Design</span></h4>
+                                    <p>
+                                        Mengikuti lomba Web Design tingkat provinsi Riau, dan mendapatkan Juara 1 lomba Web Design se-Kabupaten Siak.
+                                    </p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2017 - 2018</span>
+                                    <h4>Technician - <span>Computer and Network</span></h4>
+                                    <p>
+                                        Pernah menjadi teknisi labor dan jaringan di SMKN 1 Kandis, bertugas untuk mengatur dan melakukan perbaikan pada Jaringan di SMKN 1 Kandis dan Lab.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Experience End -->
+
+                        <a href="cv.pdf" target="_blank" class="btn link-item">download CV</a>
+                        <a href="#contact" class="btn link-item">contact me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section End -->
+
+        <!-- Portfolio Section Start -->
+        <section class="portfolio-section sec-padding" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>recent work</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Portfolio Item Start -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="img/portfolio/1.png" alt="portfolio item thumb" />
+                        </div>
+                        <h3 class="portfolio-item-title">travelling website</h3>
+                        <button type="button" class="btn view-project-btn">
+              view project
+            </button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Website ini dibuat ketika sedang mengerjakan Project Akhir di kelas PROGATE, bersama TIM kami berhasil membuat tampilan front-end Website Travelling yang sangat menarik dan Responsive.
+                                </p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>created - <span>12 Agustus 2021</span></li>
+                                    <li>
+                                        technologies used - <span>Html, Css, Javascript</span>
+                                    </li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>
+                                        view online -
+                                        <span><a href="https://nurmanabila.github.io/weekend/" target="_blank">www.weekend.com</a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item End -->
+                    <!-- Portfolio Item Start -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="img/portfolio/2.png" alt="portfolio item thumb" />
+                        </div>
+                        <h3 class="portfolio-item-title">personal portfolio website</h3>
+                        <button type="button" class="btn view-project-btn">
+              view project
+            </button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>
+                                    Portfolio website dibuat dengan design Glassmorphism yang berisi data diri saya sebagai pembuat.
+                                </p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>created - <span>10 Sep 2021</span></li>
+                                    <li>technologies used - <span>Html, Css, Javascript</span></li>
+                                    <li>Role - <span>FullStack</span></li>
+                                    <li>
+                                        view online -
+                                        <span><a href="#" target="_blank">www.domain.com</a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item End -->
+                    <!-- Portfolio Item Start -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="img/portfolio/3.png" alt="portfolio item thumb" />
+                        </div>
+                        <h3 class="portfolio-item-title">tours & travel website</h3>
+                        <button type="button" class="btn view-project-btn">
+              view project
+            </button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>
+                                    Website ini merupakan sebagai contoh design web untuk saya memulai Blogger.
+                                </p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>created - <span>4 Okt 2020</span></li>
+                                    <li>technologies used - <span>Html, Css, Javascript</span></li>
+                                    <li>Role - <span>FullStack</span></li>
+                                    <li>
+                                        view online -
+                                        <span><a href="#" target="_blank">www.domain.com</a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item End -->
+                    <!-- Portfolio Item Start -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="img/portfolio/4.png" alt="portfolio item thumb" />
+                        </div>
+                        <h3 class="portfolio-item-title">hair studio website</h3>
+                        <button type="button" class="btn view-project-btn">
+              view project
+            </button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>
+                                    Project website untuk memperkenalkan jasa potong rambut .
+                                </p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>created - <span>4 Dec 2019</span></li>
+                                    <li>technologies used - <span>Html, Css, Javascript</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>
+                                        view online -
+                                        <span><a href="#" target="_blank">www.domain.com</a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item End -->
+                    <!-- Portfolio Item Start -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="img/portfolio/5.png" alt="portfolio item thumb" />
+                        </div>
+                        <h3 class="portfolio-item-title">portfolio personal website</h3>
+                        <button type="button" class="btn view-project-btn">
+              view project
+            </button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>
+                                    Website portfolio pertama yang dibuat, dengan tampilan yang biasa tapi terlihat elegan.
+                                </p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>created - <span>20 Jan 2020</span></li>
+                                    <li>technologies used - <span>Html, Css, Javascript</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>
+                                        view online -
+                                        <span><a href="#" target="_blank">www.domain.com</a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item End -->
+                    <!-- Portfolio Item Start -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="img/portfolio/6.png" alt="portfolio item thumb" />
+                        </div>
+                        <h3 class="portfolio-item-title">animation javarscript website</h3>
+                        <button type="button" class="btn view-project-btn">
+              view project
+            </button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>
+                                    Website animasi mobil berjalan menggunakan full Javascript.
+                                </p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>created - <span>4 Nov 2020</span></li>
+                                    <li>technologies used - <span>Html, Css, Javascript</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>
+                                        view online -
+                                        <span><a href="#" target="_blank">www.domain.com</a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item End -->
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Section End -->
+
+        <!-- Contact Section Start -->
+        <section class="contact-section sec-padding" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>contact me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="input-group">
+                                    <input type="text" placeholder="Name" class="input-control" required />
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Email" class="input-control" required />
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Subject" class="input-control" required />
+                                </div>
+                                <div class="input-group">
+                                    <textarea placeholder="Message" class="input-control" required></textarea>
+                                </div>
+                                <div class="submit-btn">
+                                    <button type="submit" class="btn">send message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <h3>email</h3>
+                            <p>tawie1810@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>phone</h3>
+                            <p>082288519630</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>follow me</h3>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/michael.d.ii.16/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                                <a href="https://www.instagram.com/m2d0tzh/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                                <a href="https://github.com/michaeldavidvinc1" target="_blank"><i class='bx bxl-github' ></i></a>
+                                <a href="https://www.linkedin.com/in/michael-david-vinc-9b096a210/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section End -->
+    </div>
+    <!-- Main End -->
+
+    <!-- Portfolio Item Details Popup Start   -->
+    <div class="portfolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                    <button type="button" class="btn pp-close">
+            <i class="fas fa-times"></i>
+          </button>
+                    <div class="pp-thumbnail">
+                        <img src="img/portfolio/1.jpg" alt="" />
+                    </div>
+                    <h3>app landing page</h3>
+                </div>
+                <div class="pp-body">
+                    <div class="description">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi distinctio a quo tempora perspiciatis sunt eius delectus et nemo excepturi minus illum, maiores ab atque quas dicta repellendus doloribus ullam veniam vero esse. Eum aliquam commodi officia
+                            error libero temporibus?
+                        </p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>created - <span>4 Dec 2020</span></li>
+                            <li>technologies used - <span>Html, Css</span></li>
+                            <li>Role - <span>Frontend</span></li>
+                            <li>
+                                view online -
+                                <span><a href="#" target="_blank">www.domain.com</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Item Details Popup End   -->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
